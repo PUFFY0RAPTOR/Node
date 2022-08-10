@@ -10,7 +10,6 @@
   "version": "1.0.0",
   "description": "Node version de mi casa",
   "main": "consultar2.js",
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon nuevo.js"
   },

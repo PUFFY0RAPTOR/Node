@@ -2,12 +2,11 @@ var axios = require('axios');
 var mongoose = require('mongoose');
 
 var data = JSON.stringify({
-    "collection": "APRENDICES",
+    "collection": "Products",
     "database": "FakeStore",
     "dataSource": "ClusterADSI2364481",
-    "projection": {
-        "_id": 1
-    }
+    "projection": {"price": 1}, 
+    "filter": {price: {$eq: 8.96}},
 });
             
 var config = {

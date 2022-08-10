@@ -5,5 +5,23 @@
     "mongodb": "^4.8.1",
     "mongoose": "^6.5.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node version de mi casa",
+  "main": "consultar2.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon nuevo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUFFY0RAPTOR/Node.git"
+  },
+  "author": "Pertuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUFFY0RAPTOR/Node/issues"
+  },
+  "homepage": "https://github.com/PUFFY0RAPTOR/Node#readme"
 }
